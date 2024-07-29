@@ -1,0 +1,105 @@
+/* General Reset */
+body, h1, h2, p, a, video, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+/* Container for Centered Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.cta {
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    background: #28a745;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta:hover {
+    background: #218838;
+}
+
+/* Video Container Styling */
+.video-container {
+    margin: 20px 0;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section.info, section.cta-section {
+    padding: 40px 20px;
+    background: #fff;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Footer Styling */
+footer {
+    background: #f4f4f4;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+    text-align: right;
+}
